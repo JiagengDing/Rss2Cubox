@@ -2,8 +2,7 @@ on:
   rss:
     url:
       - http://feeds.feedburner.com/ruanyifeng?limit=10
-      - https://rsshub.app/zhubai/shyrz?limit=5
-      - https://rsshub.app/zhubai/luzhnan?limit=5
+      - https://rsshub.app/zhubai/luzhnan?limit=10
 jobs:
   request:
     name: Make a HTTP Request
