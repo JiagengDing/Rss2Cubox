@@ -3,6 +3,8 @@ on:
     url:
       - http://feeds.feedburner.com/ruanyifeng?limit=10
       - https://rsshub.app/zhubai/luzhnan?limit=10
+      - https://blog.fidelramos.net/feeds/en.rss.xml?limit=10
+      - https://sive.rs/podcast.rss?limit=10
 jobs:
   request:
     name: Make a HTTP Request
