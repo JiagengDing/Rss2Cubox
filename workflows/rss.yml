@@ -5,6 +5,9 @@ on:
       - https://rsshub.app/zhubai/luzhnan?limit=10
       - https://blog.fidelramos.net/feeds/en.rss.xml?limit=10
       - https://sive.rs/podcast.rss?limit=10
+      - https://hutusi.com/feed.xml
+      - https://greatdk.com/
+
 jobs:
   request:
     name: Make a HTTP Request
@@ -18,7 +21,7 @@ jobs:
           body: |
             {
              "type":"url",
-             "content":"${{ on.rss.outputs.link }}", 
+             "content":"${{ on.rss.outputs.link }}",
              "title": "${{ on.rss.outputs.title }}",
              "folder":"RSS"
             }
