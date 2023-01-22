@@ -5,8 +5,8 @@ on:
       - https://rsshub.app/zhubai/luzhnan?limit=10
       - https://blog.fidelramos.net/feeds/en.rss.xml?limit=10
       - https://sive.rs/podcast.rss?limit=10
-      - https://hutusi.com/feed.xml
-      - https://greatdk.com/
+      - https://hutusi.com/feed.xml?limit=10
+      - https://greatdk.com/rss?limit=10
 
 jobs:
   request:
